@@ -1,0 +1,179 @@
+*{
+    margin: 0px;
+}
+body {
+    background: darkblue;
+    color: darkorange;
+
+}
+.uno{
+        width: 20%; 
+}
+.dos{
+    width: 25%;
+}
+.tres{
+    width: 15%;
+}
+.header{
+    background: peru;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+
+.header a{
+    color: aqua;
+    height: inherit;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    padding: 0px 10px;
+}
+.header li{
+    height: inherit;
+}
+
+.menu{
+    height: inherit;
+}
+
+.Principal{
+    background-image: url(../img/fondoEspacio.png);
+    background-size: cover;
+    font-family: 'Antic Slab', serif;
+    text-align: center;
+    font-size: 50px;
+    padding: 120px;
+}
+
+h1 strong{
+    color: lawngreen;
+}
+
+.Principal-button{
+    width: 250px;
+    height: 50px;
+    background-color: mediumpurple;
+    border-radius: 24px;
+    border: none;
+    font-size: 30px;
+    cursor:pointer;
+    margin-top: 20px;
+}
+
+.Principal img{
+    width: 200px;
+}
+
+/*
+.Padre{
+    background: white;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    height: 500px;
+    align-items: center;
+
+}
+ 
+.Hijo{
+    background: mediumblue;
+    width: 200px;
+    height: 200px;
+    border: 2px solid rgb(81, 255, 0);
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+*/
+
+.Clase{    
+    background: white;
+    display: flex;
+    justify-content: space-between;
+    height: 300px;
+}
+
+.Clase-pequeña{
+    background: mediumblue;
+    width: 50%;
+    height: inherit;
+    border: 2px solid rgb(81, 255, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Clase-pequeña img{
+    height: 80%;
+    width: 50%;
+}
+
+.ol{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    height: inherit;
+}
+.logo img{
+    width: 100px;
+}
+li{
+    display: inli
+    ne;
+    padding: 10px;
+    color: yellowgreen;
+}
+.tendencias{
+    color: white;
+    text-align: center;
+    background: url(https://miro.medium.com/max/1024/1*vxjAHkrXbGG6gOiPZgjeZA.jpeg);
+    height: 650px;
+    background-size: 100%;
+    padding-top: 30px;
+}
+.ia{
+    text-align: center;
+    background: url(https://i.pinimg.com/originals/57/2a/1c/572a1cb7e19e86283f0e38fc11d26753.gif);
+    background-size: 10%;
+    padding-top: 30px;
+    height: 2700px;
+}
+.RV{
+    text-align: center;
+    height: 700px;
+}
+.cuatro{
+    width: 20%;
+    padding: 20px;
+}
+.imagen{
+    background:url(https://media1.tenor.com/images/bf3244244628d69950a1d70b77143c06/tenor.gif?itemid=16098324);
+    text-align: center;
+    background-size: 0.5%;
+    height:530px ;
+    padding-top: 20px;
+}
+
+.videos{
+    text-align: center;
+    background-color: yellowgreen;
+}
+
+.Bigdata{
+    text-align: center;
+    background-color: maroon;
+}
