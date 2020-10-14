@@ -16,7 +16,7 @@ body {
     width: 15%;
 }
 .header{
-    background: peru;
+    background:blue;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -53,25 +53,28 @@ body {
     text-align: center;
     font-size: 50px;
     padding: 120px;
+    height: 400px;
 }
 
+
+
 h1 strong{
-    color: lawngreen;
+    color: red;
 }
 
 .Principal-button{
     width: 250px;
-    height: 110px;
+    height: 90px;
     background-color: mediumpurple;
     border-radius: 24px;
     border: none;
-    font-size: 30px;
+    font-size: 20px;
     cursor:pointer;
     margin-top: 20px;
 }
 
 .Principal img{
-    width: 250x;
+    width: 250px;
 }
 
 /*
