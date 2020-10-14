@@ -6,15 +6,7 @@ body {
     color: darkorange;
 
 }
-.uno{
-        width: 20%; 
-}
-.dos{
-    width: 25%;
-}
-.tres{
-    width: 15%;
-}
+
 .header{
     background:blue;
     padding: 10px;
@@ -102,28 +94,6 @@ h1 strong{
 }
 */
 
-.Clase{    
-    background: white;
-    display: flex;
-    justify-content: space-between;
-    height: 300px;
-}
-
-.Clase-pequeña{
-    background: mediumblue;
-    width: 50%;
-    height: inherit;
-    border: 2px solid rgb(81, 255, 0);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.Clase-pequeña img{
-    height: 80%;
-    width: 50%;
-}
-
 .ol{
     list-style: none;
     margin: 0px;
@@ -132,7 +102,7 @@ h1 strong{
     height: inherit;
 }
 .logo img{
-    width: 100px;
+    width: 50px;
 }
 li{
     display: inli
@@ -143,26 +113,20 @@ li{
 .tendencias{
     color: white;
     text-align: center;
-    background: url(https://miro.medium.com/max/1024/1*vxjAHkrXbGG6gOiPZgjeZA.jpeg);
-    height: 650px;
+    height:900px;
     background-size: 100%;
+    background-color: black;
     padding-top: 30px;
 }
-.ia{
-    text-align: center;
-    background: url(https://i.pinimg.com/originals/57/2a/1c/572a1cb7e19e86283f0e38fc11d26753.gif);
-    background-size: 10%;
-    padding-top: 30px;
-    height: 2700px;
+.tendencias h2{
+    font-size: 65px;
 }
+
 .RV{
     text-align: center;
     height: 700px;
 }
-.cuatro{
-    width: 20%;
-    padding: 20px;
-}
+
 .imagen{
     background:url(https://media1.tenor.com/images/bf3244244628d69950a1d70b77143c06/tenor.gif?itemid=16098324);
     text-align: center;
@@ -170,13 +134,7 @@ li{
     height:530px ;
     padding-top: 20px;
 }
-
-.videos{
-    text-align: center;
-    background-color: yellowgreen;
-}
-
-.Bigdata{
-    text-align: center;
-    background-color: maroon;
+.tendencias p{
+    padding: 35px;
+    font-size: 25px;
 }
